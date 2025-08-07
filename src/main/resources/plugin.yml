@@ -1,0 +1,15 @@
+name: Core
+version: 0.0.1
+main: me.nv.Core
+authors: [Uknown]
+api-version: 1.21.5
+commands:
+  message:
+    description: Send a private message to a player
+    aliases: msg
+  reply:
+    description: Reply to the last private message sent to you
+    aliases: r
+  gamemode:
+    description: Change gamemode (Admin Only)
+    aliases: gm
